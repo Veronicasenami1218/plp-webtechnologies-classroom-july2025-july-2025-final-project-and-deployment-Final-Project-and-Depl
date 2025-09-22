@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en"><!-- Document is written in English -->
+<head>
+  <meta charset="UTF-8"><!-- Character encoding set to UTF-8 -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title><!-- Title shown in browser tab -->
+  <meta name="description" content="Veronica Tankpinu – Front-end Developer and Virtual Assistant. View projects, skills, and contact for collaborations.">
+  <meta property="og:title" content="Veronica Tankpinu – Portfolio">
+  <meta property="og:description" content="Front-end Developer and Virtual Assistant. Explore my projects and get in touch.">
+  <meta property="og:type" content="website">
+  <!-- Open Graph image should reference the new images folder -->
+  <meta property="og:image" content="images/me.png">
+  <!-- Canonical link uses lowercase filename in the html/ directory -->
+  <link rel="canonical" href="index.html">
+
+  <!-- Favicon in browser -->
+  <link href="images/logo.png" rel="icon" type="image/png">
+
+  <!-- Linking external CSS file -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!--Inline styling-->
+  <style>
+    /* Ensure full-height layout and sticky footer */
+    html, body {
+        height: 100%;
+        margin: 0;
+    }
+    
+    .page-wrapper {
+      min-height: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .main {
+      flex: 1;
+    }
+    
+    .social-icons {
+        display: flex;
+        gap: 15px;
+        justify-content: left;
+        align-items:left;
+        margin-left: 7%;
+        margin-top: 6%;
+        padding: -40%;
+    }
+    
+    .social-icons a img {
+        width: 40px;
+        height: 40px;
+        transition: transform 0.3s ease;
+    }
+    
+    .social-icons a img:hover {
+        transform: scale(1.1);
+        cursor: pointer;
+    }
+    
+  </style>
+</head>
+
+<body>
+  <!-- Page wrapper to allow footer to stay at the bottom -->
+  <div class="page-wrapper">
+
+    <!-- Main Section (Hero) -->
+    <div class="main">
+      
+      <!--  Navigation Bar  -->
+      <div class="navbar">
+        <!-- Site logo linking back to Home -->
+        <a href="index.html">
+          <img src="images/logo.png" class="logo" alt="Logo">
+        </a>
+
+        <!-- Navigation Links -->
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="skills.html">SKILLS</a></li>
+          <li><a href="projects.html">PROJECTS</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+      </div>
+
+      <!--  Introduction / Hero Text Section  -->
+      <div class="cont">
+        <h3>Hello! I'm <span>Veronica.</span></h3>
+        <h1><span>F</span>ront-end <span>D</span>eveloper</h1>
+        <h3>
+          I'm a Front-end website developer, a Virtual Assistant and a <br>
+          Data Entry specialist from Nigeria.
+        </h3>
+        <a href="VERONICA CURRICULUM VITAE.pdf" download>HIRE ME</a>
+      </div>
+
+      <div class="social-icons">
+  <a href="https://github.com/Veronicasenami1218" target="_blank">
+    <img src="images/icon-github.png" alt="GitHub">
+  </a>
+
+  <a href="https://www.linkedin.com/in/veronica-tankpinu-330207287/" target="_blank">
+    <img src="images/icon-linkedin.png" alt="LinkedIn">
+  </a>
+
+  <a href="https://www.instagram.com/veronica_senami?igsh=YzljYTk1ODg3Zg==" target="_blank">
+     <img src="images/icon-instagram.png" alt="Instagram">
+  </a>
+   
+   <a href="https://wa.me/qr/62QGGPQVUYUDL1 " target="_blank">
+    <img src="images/icon-whatsapp.png" alt="WhattsApp">
+  </a>
+
+  <a href="https://www.facebook.com/veronica.tankpinu" target="_blank">
+     <img src="images/icon-facebook.png" alt="Facebook">
+  </a>
+   
+</div>
+
+      
+      <!--  Hero Image Section  -->
+      <div class="image">
+        <img src="images/me.png" alt="My picture" class="me">
+      </div>
+    </div>
+    
+    <!--  Footer Section  -->
+    <footer class="site-footer">
+      <p>&copy; 2025 Veronica Tankpinu. All rights reserved.</p>
+    </footer>
+
+  </div>
+  <!-- Site-wide JavaScript -->
+  <script src="js/main.js"></script>
+</body>
+</html>

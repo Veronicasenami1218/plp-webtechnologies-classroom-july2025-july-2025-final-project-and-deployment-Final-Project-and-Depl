@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en"><!-- Document is written in English -->
+<head>
+  <meta charset="UTF-8" /><!-- Character encoding set to UTF-8 -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Projects</title><!-- Title shown in browser tab -->
+  <meta name="description" content="Projects by Veronica Tankpinu – Front-end Developer. Explore my HTML, CSS, and JS work with links to GitHub repositories.">
+  <meta property="og:title" content="Projects – Veronica Tankpinu">
+  <meta property="og:description" content="A showcase of projects built with HTML, CSS, and JavaScript.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="images/me.png">
+  <link rel="canonical" href="projects.html">
+
+  <link href="images/logo.png" rel="icon" type="image/png"><!--Favicon in browser-->
+
+  <!-- Linking external CSS file -->
+  <link rel="stylesheet" href="css/style.css" />
+
+  <!-- Inline CSS to manage sticky footer -->
+  <style>
+    html, body {
+      height: 100%;
+      margin: 0;
+    }
+
+    .page-wrapper {
+      min-height: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .main {
+      flex: 1;
+    }
+
+    .site-footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #f0f0f0;
+      color: #555;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Page Wrapper (for sticky footer layout) -->
+  <div class="page-wrapper">
+    <!--  Navigation Bar  -->
+    <div class="navbar">
+      <!-- Site logo linking back to Home -->
+      <a href="index.html">
+        <img src="images/logo.png" class="logo" alt="Logo">
+      </a>
+
+      <!-- Navigation Links -->
+      <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="about.html">ABOUT</a></li>
+        <li><a href="skills.html">SKILLS</a></li>
+        <li><a href="projects.html">PROJECTS</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+      </ul>
+    </div>
+
+    <!--  Main Content Area  -->
+    <div class="main">
+      
+      <!--  Project Section  -->
+      <section class="projects-section">
+        <h1>My Projects</h1>
+
+         <!--  Project Intro Description  -->
+        <div class="projects-intro">
+          <p>
+            Welcome to my project gallery! Below are some of the websites I've built using HTML and CSS. These projects reflect 
+            my journey as a front-end developer, showcasing both my technical growth and creativity. Each one taught me 
+            something new—from layout techniques to responsive design—and I’m excited to keep building.
+          </p>
+        </div>
+
+        <div class="projects-grid">
+
+          <!--  First Project -->
+          <div class="project-card">
+            <h2>Unemployment Webpage</h2>
+            <p>This was the first project I built as a developer. It focuses on unemployment issues.</p>
+            <p><strong>Technologies:</strong> HTML, CSS</p>
+            <a href="https://github.com/Veronicasenami1218/veroni.github.io.git" target="_blank">GitHub Repo</a>
+          </div>
+
+          <!--  Second Project  -->
+          <div class="project-card">
+            <h2>Technical Writing</h2>
+            <p>I wrote a bit about Technical writing for starters in development and other fields. 
+                It's all you need to know about Technical Writing.
+            </p>
+            <p><strong>Technologies:</strong> HTML, CSS</p>
+            <a href="https://github.com/Veronicasenami1218/TechWrite.git" target="_blank">GitHub Repo</a>
+          </div>
+
+          <!--  Third Project  -->
+          <div class="project-card">
+            <h2>Country Information Finder</h2>
+            <p>I designed something cool on each Country information such as color of flag and population</p>
+            <p><strong>Technologies:</strong> HTML, CSS, JS</p>
+            <a href="https://github.com/Veronicasenami1218/CountryInfo.git" target="_blank">GitHub Repo</a>
+          </div>
+
+          <!-- Fourth Project  -->
+          <div class="project-card">
+            <h2>Project 4</h2>
+            <p>I did this with Power Learn Africa HTML5 assignment, also called PLP Africa.
+                 it's a tribute to Tim Berners-Lee, the founder of Web or rather WWW.</p>
+            <p><strong>Technologies:</strong> HTML5 </p>
+            <a href="https://github.com/Veronicasenami1218/plp-webtechnologies-classroom-july2025-july-2025-introduction-to-html-5-introduction-to-html5-july-2.git" target="_blank">GitHub Repo</a>
+          </div>
+
+        </div>
+      </section>
+
+    </div>
+
+    <!--  Footer Section  -->
+    <footer class="site-footer">
+      <p>&copy; 2025 Veronica Tankpinu. All rights reserved.</p>
+    </footer>
+
+  </div>
+
+  <!-- Site-wide JavaScript -->
+  <script src="js/main.js"></script>
+</body>
+</html>
