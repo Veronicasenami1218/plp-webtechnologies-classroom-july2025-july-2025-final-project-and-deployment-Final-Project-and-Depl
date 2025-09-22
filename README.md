@@ -4,7 +4,7 @@ A clean, responsive, and accessible personal portfolio to showcase your backgrou
 
 ## Live Demo
 
-- URL: 
+- URL: https://plpsemifinal.netlify.app/
 
 ## Purpose
 
