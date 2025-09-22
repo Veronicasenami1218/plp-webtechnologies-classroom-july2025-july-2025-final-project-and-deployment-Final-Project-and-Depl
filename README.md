@@ -4,8 +4,7 @@ A clean, responsive, and accessible personal portfolio to showcase your backgrou
 
 ## Live Demo
 
-- URL: https://your-live-site-url.com  
-  (Replace with the deployed link after publishing.)
+- URL: 
 
 ## Purpose
 
