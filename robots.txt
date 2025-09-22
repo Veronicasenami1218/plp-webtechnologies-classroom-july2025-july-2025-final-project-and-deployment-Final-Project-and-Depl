@@ -1,0 +1,5 @@
+# robots.txt for Veronica Tankpinu portfolio
+User-agent: *
+Allow: /
+
+Sitemap: sitemap.xml

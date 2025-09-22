@@ -1,90 +1,98 @@
-# 📦 Final Assignment: Build, Organize, and Deploy a Multipage Website
+# Personal Portfolio Website
 
-You're now ready to bring everything together—HTML, CSS, JavaScript, planning, structure, and deployment. This final project challenges you to **conceptualize, build, and deploy a multi-page website** that is responsive, interactive, and ready for the real world.
+A clean, responsive, and accessible personal portfolio to showcase your background, skills, projects, and contact information.
 
-This assignment will guide you from planning your site all the way to deploying it online. Let’s make your project *production-worthy*! 🚀
+## Live Demo
 
----
+- URL: https://your-live-site-url.com  
+  (Replace with the deployed link after publishing.)
 
-## 🌐🎯 Part 1: Planning and Organizing a Multipage Website
+## Purpose
 
-Before you write any code, take time to plan:
+This project presents a professional online presence with a focus on clarity, performance, and usability. It highlights who you are, what you do, and how to get in touch.
 
-* Define your website's purpose (portfolio, product showcase, blog, etc.)
-* Outline 3–5 pages (e.g., Home, About, Services, Contact, Gallery)
-* Sketch or describe the layout of each page
-* Map out internal navigation (how pages link to one another)
+## Pages Included
 
-**Goal:** Show intentional structure and user journey across the site.
+- Home (`html/index.html`)
+- About (`html/about.html`)
+- Skills (`html/skills.html`)
+- Projects (`html/projects.html`)
+- Contact (`html/contact.html`)
+- Extras: Form page (`html/form.html`)
 
----
+## Features
 
-## 🌍💻 Part 2: Build the Website Using HTML5, CSS, and JavaScript
+- Responsive design for mobile, tablet, and desktop
+- Interactive navigation menu
+- Smooth scroll navigation between sections/pages
+- Subtle animations and transitions for better UX
+- Client-side form validation on contact/form pages
+- Basic SEO files: `robots.txt` and `sitemap.xml`
 
-Using your plan, begin building:
+## Tech Stack
 
-* Use HTML5 for semantic structure
-* Apply CSS for responsive layout, styling, and animations
-* Use JavaScript to add interactivity (menus, forms, toggles, dynamic content)
+- HTML5, CSS3, JavaScript (Vanilla)
+- No build tools or server required
 
-Each page should:
+## Project Structure
 
-* Be mobile-responsive
-* Share a consistent layout/header/footer
-* Include at least one interactive element (e.g., form validation, toggle menu, animation on scroll)
+```
+First Hackathon/
+├─ .vscode/
+│  └─ settings.json
+├─ css/
+│  └─ style.css
+├─ html/
+│  ├─ index.html        # Home
+│  ├─ about.html        # About
+│  ├─ skills.html       # Skills
+│  ├─ projects.html     # Projects
+│  ├─ contact.html      # Contact
+│  └─ form.html         # Additional form page
+├─ images/              # Logos, icons, and images
+│  ├─ background.jpeg
+│  ├─ icon-*.png
+│  ├─ logo.png
+│  └─ me.png
+├─ js/
+│  └─ main.js
+├─ VERONICA CURRICULUM VITAE.pdf
+├─ robots.txt
+├─ sitemap.xml
+└─ README.md
+```
 
-**Goal:** Integrate everything you’ve learned in a cohesive, functioning project.
+## Local Development
 
----
+You can run the project locally in a few ways. No backend is required.
 
-## 🛠️🚀 Part 3: Best Practices for Code Organization
+### Option A: Open directly in a browser
 
-Before deployment, refactor your project to follow production-friendly practices:
+- Double-click `html/index.html` to open it in your default browser.
+- For best results with routing and assets, use Option B or C.
 
-* Organize files in folders (`/css`, `/js`, `/images`, etc.)
-* Write clean, modular, and commented code
-* Use meaningful file names and relative paths
-* Validate your HTML/CSS and test on different screen sizes
+### Option B: VS Code Live Server (Recommended)
 
-**Goal:** Prepare your codebase to be readable, maintainable, and scalable.
+1. Open the project folder in VS Code.
+2. Install the "Live Server" extension (by Ritwick Dey).
+3. Right-click `html/index.html` and select "Open with Live Server".
 
----
+### Option C: Simple local server (Python)
 
-## 🌐🚀 Part 4: Introduction to Hosting and Deployment
+From the project root, serve files locally (Python 3):
 
-Once your project is complete, choose a method to **host your site online**.
+```
+# Windows / macOS / Linux
+python -m http.server 5500
+```
 
-You can use:
+Then open: http://localhost:5500/html/index.html
 
-* **GitHub Pages** (great for portfolios and static sites)
-* **Netlify** (powerful CI/CD features and easy form support)
-* **Vercel** (lightning-fast deployment for frontend projects)
+## How to Update the Live URL
 
-Deploy your project and confirm that:
+- After you deploy (e.g., Netlify, GitHub Pages, Vercel), replace the placeholder in the "Live Demo" section with your production URL.
 
-* All links and scripts work
-* It loads properly on mobile and desktop
-* It has a clear, shareable URL
+## Contact & Licensing
 
-**Goal:** Publish your work online and make it accessible to the world.
-
----
-
-## Deliverables
-
-1. A GitHub repository containing:
-
-   * Your complete project code, properly organized
-   * A `README.md` file explaining your project purpose, structure, and live URL
-2. A live deployed website (hosted via GitHub Pages, Netlify, or Vercel)
-
----
-
-## Outcome
-
-* Clarity and thoroughness of planning documentation
-* Proper use of HTML5, CSS, and JavaScript across multiple pages
-* Responsive and accessible design
-* Clean, well-organized, and commented code
-* Successful live deployment with a working link
-* Evidence of following best practices
+- Content and design © Veronica Tankpinu.
+- Feel free to adapt this structure for your needs.
